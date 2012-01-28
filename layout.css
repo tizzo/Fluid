@@ -1,0 +1,108 @@
+/* line 11, sass/layout.sass */
+#page-wrapper {
+  *zoom: 1;
+  margin: auto;
+  width: 472px;
+  max-width: 100%;
+  width: auto;
+  margin: 6em;
+}
+/* line 38, ../../../../../../../lib/gems/1.8/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+#page-wrapper:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* line 16, sass/layout.sass */
+#header, #navigation {
+  display: inline;
+  float: left;
+  width: 96.61%;
+  margin-right: 1.695%;
+  margin-left: 1.695%;
+}
+
+/* line 18, sass/layout.sass */
+#sidebar-second {
+  display: inline;
+  float: left;
+  width: 22.881%;
+  margin-right: 1.695%;
+  display: inline;
+  float: right;
+  margin-right: 1.695%;
+  #margin-left: -8px;
+}
+
+/* line 21, sass/layout.sass */
+#sidebar-first {
+  display: inline;
+  float: left;
+  width: 22.881%;
+  margin-right: 1.695%;
+  margin-left: 1.695%;
+}
+
+/* line 24, sass/layout.sass */
+#content {
+  display: inline;
+  float: left;
+  width: 72.034%;
+  margin-right: 1.695%;
+}
+
+/* line 26, sass/layout.sass */
+body.one-sidebar.sidebar-first #content {
+  display: inline;
+  float: right;
+  margin-right: 1.695%;
+  #margin-left: -8px;
+}
+
+/* line 28, sass/layout.sass */
+body.one-sidebar.sidebar-second #content {
+  margin-left: 1.695%;
+}
+
+/* line 31, sass/layout.sass */
+body.two-sidebars #content {
+  display: inline;
+  float: left;
+  width: 47.458%;
+  margin-right: 1.695%;
+}
+/* line 33, sass/layout.sass */
+body.two-sidebars #sidebar-first {
+  margin-left: 1.695%;
+}
+/* line 35, sass/layout.sass */
+body.two-sidebars #sidebar-second {
+  display: inline;
+  float: right;
+  margin-right: 1.695%;
+  #margin-left: -8px;
+}
+
+@media screen and (max-width: 1000px) {
+  /* line 38, sass/layout.sass */
+  #page-wrapper {
+    margin: 1em;
+    margin-top: 0;
+  }
+}
+@media screen and (max-width: 500px) {
+  /* line 42, sass/layout.sass */
+  #page-wrapper {
+    margin: 0;
+  }
+
+  /* line 45, sass/layout.sass */
+  body.one-sidebar.sidebar-first #content, body.one-sidebar.sidebar-first #sidebar-second, body.one-sidebar.sidebar-first #sidebar-first, body.one-sidebar.sidebar-second #content, body.one-sidebar.sidebar-second #sidebar-second, body.one-sidebar.sidebar-second #sidebar-first, body.two-sidebars #content, body.two-sidebars #sidebar-second, body.two-sidebars #sidebar-first {
+    display: inline;
+    float: left;
+    width: 96.61%;
+    margin-right: 1.695%;
+    margin-left: 1.695%;
+  }
+}
