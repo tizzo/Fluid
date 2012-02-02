@@ -1,0 +1,6 @@
+name = Tony
+description = Similar to Stark, it uses all default HTML providing only a layout.css to demostrate a responsive fluid grid complete with break points in a less than 50 lines of code.
+version = 1.0-dev
+core = 7.x
+stylesheets[all][] = layout.css
+

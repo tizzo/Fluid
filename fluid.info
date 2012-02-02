@@ -1,6 +1,0 @@
-name = Fluid
-description = Demostrate a responsive fluid grid in a 30 lines of code.
-version = VERSION
-core = 7.x
-stylesheets[all][] = layout.css
-
